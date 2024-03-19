@@ -1,5 +1,3 @@
-        <!-- these aren't the droids you're looking for -->
-        <!---><!-->
         <key>platform-application</key>
         <true/>
         <key>com.apple.private.security.no-container</key>
@@ -8,7 +6,4 @@
         <true/>
         <key>com.apple.system-task-ports</key>
         <true/>
-        <key>dynamic-codesigning</key>
-        <true/>
-        <!-- -->
-    
+        <key>dynamic-codesigning</key><true/>

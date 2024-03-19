@@ -61,4 +61,5 @@ struct dyld_all_image_infos_64 {
     uint64_t                compact_dyld_image_info_addr;
     uint64_t                compact_dyld_image_info_size;
     uint32_t                platform;
+    uintptr_t padding[2000];
 };

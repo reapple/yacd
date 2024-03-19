@@ -38,7 +38,7 @@
 #define RDFailOnError(function, label) \
 	do { \
 		if (err != KERN_SUCCESS) { \
-			syslog(LOG_NOTICE, "[%d] %s failed with error: %s [%d]\n", \
+			NSLog(@"[%d] %s failed with error: %s [%d]\n", \
 					__LINE__-1, function, mach_error_string(err), err); \
 			goto label; \
 		} \
