@@ -7,6 +7,14 @@
   <img width="20%" src="https://github.com/DerekSelander/yacd/blob/master/media/img.png" style="width: 200px">
 </p>
 
+TLDR: build & run
+
+```
+> xcodebuild -project ./PsychicStapler.xcodeproj  -scheme yacd -config Debug -sdk iphoneos -arch arm64 -derivedDataPath /tmp/
+# upload to jb'd device, refresh UICache
+# open an app, open yacd, decrypt
+```
+
 
 This application uses [@s1guza](https://twitter.com/s1guza)'s [Psychic Paper](https://siguza.github.io/psychicpaper/) exploit to be able to read other process memory and the iOS filesystem.
 

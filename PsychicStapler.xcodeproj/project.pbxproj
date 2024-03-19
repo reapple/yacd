@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F17A5F224C3F43C000227B5 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3F17A5F124C3F43C000227B5 /* main.mm */; };
 		3F17A5FF24C3F485000227B5 /* PsychicStapler.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3F17A5FC24C3F485000227B5 /* PsychicStapler.h */; };
-		3F17A60424C3F4A5000227B5 /* libPsychicStapler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F17A5FA24C3F485000227B5 /* libPsychicStapler.a */; };
 		3F4072FB24FB580D0016831B /* ApplicationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4072FA24FB580D0016831B /* ApplicationTableViewCell.m */; };
 		3F4072FF24FC9CA90016831B /* NSError+ErrorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4072FE24FC9CA90016831B /* NSError+ErrorHelper.m */; };
 		3F6EA06324F4005D001AD9C8 /* mz_strm_os_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F6EA04124F4005D001AD9C8 /* mz_strm_os_posix.c */; };
@@ -55,13 +53,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3F17A60524C3F4A5000227B5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3F22D10224C3BE8300D8E341 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3F17A5F924C3F485000227B5;
-			remoteInfo = PhysicStapler;
-		};
 		3FE942F824CE771A008FCB38 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3F22D10224C3BE8300D8E341 /* Project object */;
@@ -72,15 +63,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		3F17A5ED24C3F43C000227B5 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
 		3F17A5F824C3F485000227B5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -104,7 +86,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3F17A5EF24C3F43C000227B5 /* dproc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dproc; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F17A5F124C3F43C000227B5 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		3F17A5FA24C3F485000227B5 /* libPsychicStapler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPsychicStapler.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F17A5FC24C3F485000227B5 /* PsychicStapler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PsychicStapler.h; sourceTree = "<group>"; };
@@ -193,14 +174,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3F17A5EC24C3F43C000227B5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3F17A60424C3F4A5000227B5 /* libPsychicStapler.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3F17A5F724C3F485000227B5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -280,7 +253,6 @@
 		3F22D10B24C3BE8300D8E341 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F17A5EF24C3F43C000227B5 /* dproc */,
 				3F17A5FA24C3F485000227B5 /* libPsychicStapler.a */,
 				3F7513D724C713A600DC892B /* yacd.app */,
 			);
@@ -421,24 +393,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F17A5EE24C3F43C000227B5 /* dproc */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3F17A5F324C3F43C000227B5 /* Build configuration list for PBXNativeTarget "dproc" */;
-			buildPhases = (
-				3F17A5EB24C3F43C000227B5 /* Sources */,
-				3F17A5EC24C3F43C000227B5 /* Frameworks */,
-				3F17A5ED24C3F43C000227B5 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3F17A60624C3F4A5000227B5 /* PBXTargetDependency */,
-			);
-			name = dproc;
-			productName = macPOC;
-			productReference = 3F17A5EF24C3F43C000227B5 /* dproc */;
-			productType = "com.apple.product-type.tool";
-		};
 		3F17A5F924C3F485000227B5 /* PsychicStapler */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F17A60024C3F485000227B5 /* Build configuration list for PBXNativeTarget "PsychicStapler" */;
@@ -485,9 +439,6 @@
 				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = Selander;
 				TargetAttributes = {
-					3F17A5EE24C3F43C000227B5 = {
-						CreatedOnToolsVersion = 11.3;
-					};
 					3F17A5F924C3F485000227B5 = {
 						CreatedOnToolsVersion = 11.3;
 					};
@@ -510,7 +461,6 @@
 			projectRoot = "";
 			targets = (
 				3F17A5F924C3F485000227B5 /* PsychicStapler */,
-				3F17A5EE24C3F43C000227B5 /* dproc */,
 				3F7513D624C713A600DC892B /* yacd */,
 			);
 		};
@@ -548,20 +498,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "#echo ${TARGET_TEMP_DIR}/${EXECUTABLE_FOLDER_PATH}.xcent \n#echo ${SRCROOT}/PsychicPOC/evil_ent.xml\n\n# Use double quotes, else variables wont expand\n\nsed -i '' \"/^\\<dict\\>$/r ${SRCROOT}/yacd/evil_ent.xml\"  ${TARGET_TEMP_DIR}/${EXECUTABLE_FOLDER_PATH}.xcent  \n";
+			shellScript = "#echo ${TARGET_TEMP_DIR}/${EXECUTABLE_FOLDER_PATH}.xcent \n#echo ${SRCROOT}/PsychicPOC/evil_ent.xml\n\n# Use double quotes, else variables wont expand\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3F17A5EB24C3F43C000227B5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3F17A5F224C3F43C000227B5 /* main.mm in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3F17A5F624C3F485000227B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -612,11 +554,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3F17A60624C3F4A5000227B5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3F17A5F924C3F485000227B5 /* PsychicStapler */;
-			targetProxy = 3F17A60524C3F4A5000227B5 /* PBXContainerItemProxy */;
-		};
 		3FE942F924CE771A008FCB38 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3F17A5F924C3F485000227B5 /* PsychicStapler */;
@@ -644,34 +581,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3F17A5F424C3F43C000227B5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H4U46V6494;
-				ENABLE_HARDENED_RUNTIME = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SYSTEM_HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"";
-			};
-			name = Debug;
-		};
-		3F17A5F524C3F43C000227B5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = H4U46V6494;
-				ENABLE_HARDENED_RUNTIME = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SYSTEM_HEADER_SEARCH_PATHS = "\"$(SRCROOT)\"";
-			};
-			name = Release;
-		};
 		3F17A60124C3F485000227B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -713,6 +622,7 @@
 		3F22D12124C3BE8800D8E341 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				AD_HOC_CODE_SIGNING_ALLOWED = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -743,6 +653,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -772,6 +683,7 @@
 		3F22D12224C3BE8800D8E341 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				AD_HOC_CODE_SIGNING_ALLOWED = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -802,6 +714,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -828,7 +741,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_ENTITLEMENTS = "${SRCROOT}/yacd/evil_ent.xml";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H4U46V6494;
 				ENABLE_BITCODE = NO;
@@ -864,6 +778,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_ENTITLEMENTS = "${SRCROOT}/yacd/evil_ent.xml";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H4U46V6494;
 				ENABLE_BITCODE = NO;
@@ -894,15 +809,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F17A5F324C3F43C000227B5 /* Build configuration list for PBXNativeTarget "dproc" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3F17A5F424C3F43C000227B5 /* Debug */,
-				3F17A5F524C3F43C000227B5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		3F17A60024C3F485000227B5 /* Build configuration list for PBXNativeTarget "PsychicStapler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
